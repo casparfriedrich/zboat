@@ -1,0 +1,10 @@
+&pwm0 {
+	ch0-pin = <13>;
+	/delete-property/ ch0-inverted;
+	ch1-pin = <14>;
+	/delete-property/ ch1-inverted;
+	ch2-pin = <15>;
+	/delete-property/ ch2-inverted;
+	ch3-pin = <16>;
+	/delete-property/ ch3-inverted;
+};
